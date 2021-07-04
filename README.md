@@ -4,3 +4,7 @@ This is the set of tools to manage [my bookshelf](https://books.google.co.uk/boo
 
 - Convert the photo of the book into its isbn number
 - Add the book to the bookshelf on google books by isbn number
+
+# Requirements
+- [zbar](http://zbar.sourceforge.net/)
+- Python3
