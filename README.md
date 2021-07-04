@@ -8,3 +8,15 @@ This is the set of tools to manage [my bookshelf](https://books.google.co.uk/boo
 # Requirements
 - [zbar](http://zbar.sourceforge.net/)
 - Python3
+
+# Typical usage
+
+## Convert the photo to its isbn number
+```
+takeisbn.sh /PATH/TO/PHOTOS > /PATH/TO/ISBNLIST
+```
+
+## Add the books by the isbn number
+```
+python3 addgbs.py /PATH/TO/ISBNLIST
+```
